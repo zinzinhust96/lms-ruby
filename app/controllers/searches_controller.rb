@@ -15,7 +15,7 @@ class SearchesController < ApplicationController
 
   private
   def search_params
-    params.require(:search).permit(:isbn, :title,:description, :author)
+    params.require(:search).permit(:isbn, :title,:publisher, :author)
   end
 
 

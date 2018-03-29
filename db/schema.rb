@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 20180326194133) do
 
   create_table "books", force: :cascade do |t|
     t.string "title"
-    t.string "description"
+    t.string "publisher"
     t.string "author"
     t.string "isbn"
     t.boolean "is_borrowed"
@@ -41,7 +41,7 @@ ActiveRecord::Schema.define(version: 20180326194133) do
   create_table "searches", force: :cascade do |t|
     t.string "isbn"
     t.string "title"
-    t.string "description"
+    t.string "publisher"
     t.string "author"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

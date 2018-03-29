@@ -5,7 +5,7 @@ class Book < ActiveRecord::Base
             :presence => true
   validates :isbn,
             :presence => true
-  validates :description,
+  validates :publisher,
             :presence => true
   validates :isbn,
             :presence => true,

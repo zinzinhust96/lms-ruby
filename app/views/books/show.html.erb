@@ -4,7 +4,7 @@
   <thead>
     <tr>
       <th><strong>Title</strong></th>
-      <th><strong>Description</strong></th>
+      <th><strong>publisher</strong></th>
       <th><strong>Author</strong></th>
       <th><strong>Isbn</strong></th>
       <th><strong>Status</strong></th>
@@ -14,7 +14,7 @@
 
     <tr>
       <td><%= @book.title %></td>
-      <td><%= @book.description %></td>
+      <td><%= @book.publisher %></td>
       <td><%= @book.author %></td>
       <td><%= @book.isbn %></td>
       <% if @book.is_borrowed %>

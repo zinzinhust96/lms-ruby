@@ -3,7 +3,7 @@ class CreateSearches < ActiveRecord::Migration[5.0]
     create_table :searches do |t|
       t.string :isbn
       t.string :title
-      t.string :description
+      t.string :publisher
       t.string :author
 
       t.timestamps null: false

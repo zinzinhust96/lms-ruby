@@ -3,11 +3,11 @@
 one:
   isbn: MyString
   title: MyString
-  description: MyString
+  publisher: MyString
   author: MyString
 
 two:
   isbn: MyString
   title: MyString
-  description: MyString
+  publisher: MyString
   author: MyString

@@ -2,7 +2,7 @@
 
 one:
   title: MyString
-  description: MyString
+  publisher: MyString
   author: MyString
   isbn: MyString
   is_borrowed: false
@@ -10,7 +10,7 @@ one:
 
 two:
   title: MyString
-  description: MyString
+  publisher: MyString
   author: MyString
   isbn: MyString
   is_borrowed: false
