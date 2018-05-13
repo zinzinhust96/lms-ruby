@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20180326194133) do
   create_table "books", force: :cascade do |t|
     t.string "title"
     t.string "publisher"
+    t.string "cover"
     t.string "author"
     t.string "isbn"
     t.boolean "is_borrowed"
